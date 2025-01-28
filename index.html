@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sei's Site</title>
+
+    <!-- reset CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!-- My css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="mainNav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#skillSet">Skill set</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="topView">
+            <div class="logo">
+                <h1>Sei's Site</h1>
+                <p>エンジニアスキルのポートフォリオサイト</p>
+                <div class="images/note_pc_w.png"></div>
+                <div class="icon"><img src="images/note_pc_w.png" alt=""></div>
+                <a href="#works" class="toWorksButton">Works↓</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="wrapper about_inner">
+                <div>
+                    <h2>About this site</h2>
+                    <p>
+                        　このサイトは<span>Sei Terashima</span>の<span>ポートフォリオサイト</span>です。私のエンジニアとしてのスキルを紹介します。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="works">
+            <div class="wrapper works_inner">
+                <h2>Works</h2>
+                <p style="text-align: center;">
+                    　制作した作品の一部を紹介します。
+                </p>
+
+                <h3>Unityゲーム作成(PC)</h3>
+
+                <div class="worksGrid">
+                    <div class="gridItem">
+                        <a class="gridBox" href="https://github.com/sei-terashima/MuskRat/">
+                            <img src="images/pcgame2.png" alt="my works">
+                            <p><span
+                                    style="color:#fa3">自動生成迷路ゲーム</span><br>小さなハムスターを操作し、全6ステージの自動生成される迷路内でタイムアタックをするゲームです。
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="gridItem">
+                        <a class="gridBox" href="https://github.com/sei-terashima/EscapeGame">
+                            <img src="images/pcgame4.png" alt="my works">
+                            <p><span
+                                    style="color:#fa3">ESCAPE GAME</span><br>30秒の間で降ってくる爆弾から逃げ延びるゲーム。ちょっとしたミニゲームになるよう意識して作成しました。
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+                <h3>Unityゲーム作成(MOBILE)</h3>
+                <div class="worksGrid">
+                    <div class="gridItem">
+                        <a class="gridBox" href="https://github.com/sei-terashima/BasketBallThrowing">
+                            <img src="images/mobile2.png" alt="my works">
+                            <p><span
+                                    style="color:#fa3">バスケットシューター</span><br>30秒以内にゴールを5回決めると勝利となるゲームです。長押しでボールの高さを上げることができ、ワンタップ操作なので簡単にプレイができます。
+                            </p>
+                        </a>
+                </div>
+                    <!-- <div class="gridItem">
+                        <a class="gridBox" href="https://github.com/sei-terashima/BasketBallThrowing">
+                            <img src="images/work_carry.png" alt="my works">
+                            <p><span
+                                    style="color:#fa3">作成中</span><br>作成中
+                            </p>
+                        </a>
+                    </div> -->
+                </div>
+
+                <h3>Python(Pyxelにて作成予定)</h3>
+            </div>
+        </section>
+
+        <section id="skillSet">
+            <div class="wrapper skillSet_inner">
+                <h2>My skill set</h2>
+                <p>
+                <ul class="skillFlex">
+                    <li>
+                        <span>HTML/CSS</span>
+                        <p>職業訓練校にて自身のポートフォリオサイトを作成するために実践的なスキルを習得しました。本ポートフォリオも自作しています。</p>
+                    </li>
+                    <li>
+                        <span>C#</span>
+                        <p>Unityにてゲームを制作するため、C#の学習を行いました。現在は更に理解を深めるため、復習をしながら様々な仕組みのゲームを作成中となります。</p>
+                    </li>
+                    <li>
+                        <span>Java</span>
+                        <p>C#の応用でJavaも一部学んでおります。</p>
+                    </li>
+                    <li>
+                        <span>Python</span>
+                        <p>Pyxelというレトロゲームエンジンに興味があるため、学習予定となります。</p>
+                    </li>
+        </section>
+
+        <section id="profile">
+            <div class="wrapper profile_inner">
+                <h2>Profile(About me)</h2>
+
+                <h3>My Job History</h3>
+                <ul class="jobHistory">
+                    <li>
+                        <div class="jobTitle">丸一運輸株式会社(株式会社 伊藤屋)
+                            <!-- <span class="jobDate">2000～2000</span> -->
+                        </div>
+                        <p class="jobInfo">
+                            　文房具に興味があったため銀座に本店がある「伊藤屋」という文房具の倉庫にて働く。<br>
+                            文房具のピッキングや梱包開梱がメインの仕事で働き続ける予定であったが、<br>
+                            震災がきっかけで自衛隊員となるため、退職することを決意。
+                        </p>
+                    </li>
+                    <li>
+                        <div class="jobTitle">陸上自衛隊 施設科
+                            <!-- <span class="jobDate">2000～2000</span> -->
+                        </div>
+                        <p class="jobInfo">
+                            　自衛隊に入隊。<br>
+                            前期教育は北富士駐屯地、後期教育は古河駐屯地で行い、忍耐力と集団生活能力を身に着ける。<br>
+                            教育後は座間駐屯地の施設科に配属され、陸士として陣地・障害構築等の任務に従事する。<br>
+                            2任期満了(4年間)にて退職。<br>
+                            また、現在は即応予備自衛官(需品科)として年間30日程を自衛隊員として訓練を受けている。
+                        </p>
+                    </li>
+                    <li>
+                        <div class="jobTitle">株式会社セガ
+                            <!-- <span class="jobDate">2000～2000</span> -->
+                        </div>
+                        <p class="jobInfo">
+                            　ゲーム関係の仕事を経験したかったため株式会社セガへアルバイトとして入社。<br>
+                            コンシューマー、モバイル、PCなど様々なゲームのデバッグやリーダー業務、バランスチェック、評価業務を行う。<br>
+                            ＜担当ジャンル一覧＞<br>
+                            オリンピック公式スポーツゲーム,RPG,リズムアクション,アクション,シューティング,アクションパズル,アクションRPG,シミュレーションRPG,
+                            3D格闘ゲーム,ドラマチックアドベンチャー,名作ゲームの擬人化RPG,オンラインクレーンゲーム
+                        </p>
+                    </li>
+                    <li>
+                        <div class="jobTitle">桐井電設工業株式会社
+                            <!-- <span class="jobDate">2000～2000</span> -->
+                        </div>
+                        <p class="jobInfo">
+                            　契約期間満了のため株式会社セガを退職後、体を動かす仕事がしたかったため送電線の張替え工事を行う会社に入社するが、腰を悪くしてしまい高所での作業が困難となってしまったため退職。
+                        </p>
+                    </li>
+                    <li>
+                        <div class="jobTitle">職業訓練校 C#プログラマー科
+                            <!-- <span class="jobDate">2000～2000</span> -->
+                        </div>
+                        <p class="jobInfo">
+                            　退職後、次の就職に繋がる何かいい教育はないかと職業訓練校を探していたところ、リモートでゲーム制作の教育を受けることのできる職業訓練を見つけたため、受講を決意。<br>
+                            HTML/CSS,C#,Unityの教育を受け、ゲーム制作等について学ぶ。
+                        </p>
+                        <section id="contact">
+                            <div class="wrapper contact_inner">
+                                <div>
+                                    <h2>Contact</h2>
+                                    <ul>
+                                        <li>Tell：080-6505-0604</li>
+                                        <li>email：terashima.sei@gmail.com</li>
+                                    </ul>
+                                    <a href="mailto:terashima.sei@gmail.com" class="sendMail">
+                                        Send Mail
+                                    </a>
+                        </section>
+    </main>
+    <footer id="footer">
+        <div>
+            <div class="footerTop">
+                <p>Thank you for coming!</p>
+            </div>
+            <div class="footerBottom">
+                <p class="copyright">&copy;Sei Terashima. (since 2025)</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
